@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-formulario {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+input:focus {
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline: none;    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.5em;
+    font-size: 2em;
+    
+}
+
+.campo-dni {
+    width: 85%;
+    height: 2.5em;
+    margin: 0.3em 1.5em;
+    padding-left: 5px;
+    border:none;
+    border-bottom:1px solid #000;
+}
+
+.titulo-dni {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.campo-nombre {
+    width: 85%;
+    height: 2.5em;
+    margin: 0.3em 1.5em;
+    padding-left: 5px;
+    border:none;
+    border-bottom:1px solid #000;
+}
+
+.titulo-nombre {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.campo-apellido1 {
+    width: 85%;
+    height: 2.5em;
+    margin: 0.3em 1.5em;
+    padding-left: 5px;
+    border:none;
+    border-bottom:1px solid #000;
+}
+
+.titulo-apellido1 {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.campo-apellido2 {
+    width: 85%;
+    height: 2.5em;
+    margin: 0.3em 1.5em;
+    padding-left: 5px;
+    border:none;
+    border-bottom:1px solid #000;
+}
+
+.titulo-apellido2 {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.boton-enviar {
+    width: 85%;
+    height: 2em;
+    margin: 1.5em 1em;
+    font-size: 20px;
+    /* background-color: rgb(27, 27, 211); */
+    background-color: rgb(112, 7, 12);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+
+.boton-enviar:hover {
+    /* background-color: rgb(72, 70, 219); */
+    background-color: #fff;
+    font-weight: bold;
+    color:rgb(112, 7, 12);
+    border: 1px solid rgb(112, 7, 12);
+}
+
+.boton-enviar:focus {
+    outline:none;
+}
