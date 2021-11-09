@@ -114,6 +114,7 @@ input:focus {
     border-radius: 5px;
     cursor: pointer;
     border:none;
+    transition: background-color .5s;
 }
 
 .boton-enviar:hover {
